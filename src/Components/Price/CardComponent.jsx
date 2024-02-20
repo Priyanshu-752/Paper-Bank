@@ -37,17 +37,18 @@ const CardComponent = () => {
               <div className="max-w-[1240px] mx-auto grid sm:grid-cols-3 gap-8">
                 <div>
                 
+                <Link to="https://gehuhaldwani.github.io/pyqs/">
                   <Card
-                  path="../Pages/About/About.jsx"
                     image={image1}
                     Package={"Syllabus"}
                     buttonBg={"bg-gray-300"}
                     hoverBgButton={"hover:bg-gray-200"}
                   />
+                  </Link>
                 </div>
                 <div>
+                <Link to="Quespaper">
                   <Card
-                  path="../Pages/Paper.jsx"
                     image={image2}
                     Package={"Previous Year Papers"}
                     buttonBg={"bg-green-400"}
@@ -56,14 +57,17 @@ const CardComponent = () => {
                     standOutBg={"bg-blue-100/30"}
                     marginMiddle={"md:my-6"}
                   />
+                  </Link>
                 </div>
                 <div>
+                <Link to="ResearchPaper">
                   <Card
                     image={image3}
                     Package={"Research Papers"}
                     buttonBg={"bg-gray-300"}
                     hoverBgButton={"hover:bg-gray-200"}
                   />
+                  </Link>
                 </div>
               </div>
             </>
@@ -81,7 +85,6 @@ const CardComponent = () => {
                   transition={{ duration: 0.5, delay: 0.25 }}
                 >
                   <Link to="https://gehuhaldwani.github.io/pyqs/">
-
                   <Card
                     image={image1}
                     Package={"Syllabus"}
@@ -101,7 +104,6 @@ const CardComponent = () => {
                   transition={{ duration: 0.5, delay: 0.65 }}
                 >
                   <Link to="Quespaper">
-
                   <Card
                     image={image2}
                     Package={"Previous Year Papers"}
@@ -124,7 +126,6 @@ const CardComponent = () => {
                   transition={{ duration: 0.5, delay: 0.25 }}
                 >
                   <Link to="ResearchPaper">
-
                   <Card
                     image={image3}
                     Package={"Research Papers"}

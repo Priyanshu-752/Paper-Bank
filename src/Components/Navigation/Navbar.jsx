@@ -97,7 +97,7 @@ const Navbar = () => {
             </div>
           </div> */}
           <div className="flex justify-center">
-            <p className="mt-[25px] text-gray-100/30 text-sm">All Rights Reserved - LevelUP </p>
+            <p className="mt-[25px] text-gray-100/30 text-sm">All Rights Reserved - Paper Bank </p>
           </div>
         </div>
       </nav>
