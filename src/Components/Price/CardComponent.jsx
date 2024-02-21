@@ -60,7 +60,7 @@ const CardComponent = () => {
                   </Link>
                 </div>
                 <div>
-                <Link to="ResearchPaper">
+                <Link to="https://drive.google.com/drive/folders/1pRpVF6vs7-EFgUBcVXgcxmHswz1MeM7a">
                   <Card
                     image={image3}
                     Package={"Research Papers"}
@@ -125,7 +125,7 @@ const CardComponent = () => {
                   animate={mainControlls}
                   transition={{ duration: 0.5, delay: 0.25 }}
                 >
-                  <Link to="ResearchPaper">
+                  <Link to="https://drive.google.com/drive/folders/1pRpVF6vs7-EFgUBcVXgcxmHswz1MeM7a">
                   <Card
                     image={image3}
                     Package={"Research Papers"}
