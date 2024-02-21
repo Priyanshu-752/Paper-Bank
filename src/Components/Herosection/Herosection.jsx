@@ -34,7 +34,7 @@ const Herosection = () => {
                     </span>
                   </h1>
                   <p class="text-body-color mt-7 text-sm mb-8 max-w-[480px] sm:text-base">
-            Welcome to Paper Bank , where you get all question papers at one place and research paper to get reference for your projects. By software cell team of Graphic Era Hill University, Haldwani.
+            Welcome to Paper Bank , where you get all question papers at one place and research paper to get reference for your projects. By Software Cell Team of Graphic Era Hill University, Haldwani.
                   </p>
                 </motion.div>
                 <motion.div

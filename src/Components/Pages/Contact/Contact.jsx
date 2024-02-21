@@ -22,10 +22,8 @@ const Contact = () => {
                     GET IN TOUCH WITH US
                   </h2>
                   <p class="text-gray-700 mb-9 text-base leading-relaxed">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eius tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim adiqua minim veniam quis nostrud exercitation
-                    ullamco
+                  Welcome to Paper Bank , where you get all question papers at one place and research paper to get reference for your projects. By Software Cell Team of Graphic Era Hill University, Haldwani.
+
                   </p>
                   <div class="mb-8 flex w-full max-w-[370px]">
                     <div class="bg-blue-400/20 text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded  sm:h-[70px] sm:max-w-[70px]">
