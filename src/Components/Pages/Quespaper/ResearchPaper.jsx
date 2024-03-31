@@ -12,7 +12,7 @@ const ResearchPaper = () => {
         <h1 className="flex justify-center text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-emerald-500 font-extrabold sm:text-7xl text-5xl text-center">
           Latest Research Papers !
         </h1>
-        <Research/>
+        <Paper/>
       </div>
     </div>
     <Footer/>

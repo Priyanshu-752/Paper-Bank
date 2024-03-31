@@ -7,84 +7,117 @@ function classNames(...classes) {
 
 export default function Paper() {
   let [categories] = useState({
-  First_Year: [
+  Computer_Science: [
     {
       id: 1,
-      title: 'Btech',
+      title: 'Ishwari Singh Rajput',
       link: "https://drive.google.com/file/d/14K3h9kN3cJczIbE2yucgNgDV-_zO2rc4/view?usp=drivesdk",
     },
     {
       id: 2,
-      title: "Bca",
+      title: "Sonam Tyagi",
       link: "https://drive.google.com/file/d/1tYBgET6hjZ-A06iHJ3m6nZDjmg0WTyTi/view?usp=drivesdk",
     },
     {
       id: 3,
-      title: "BBA",
+      title: "Ashutosh Upadhyay",
       link: "https://drive.google.com/file/d/1w14PEg_t2KSXJBRjJbZdZUbOpniKoWa_/view?usp=drivesdk",
     },
     {
       id: 4,
-      title: "B.Com",
+      title: "Dr Mukesh K Sahu",
       link: "https://drive.google.com/file/d/1ryV6Ph29iJZZJBuufJtweeaUiII6IdKZ/view?usp=drivesdk",
     },
 
     {
       id: 5,
-      title: "BJMC",
+      title: "Kuljinder Singh Bumrah",
+      link: "https://drive.google.com/file/d/12KQCJudELbyio2PYqbILBxYQdpif8nU5/view?usp=drivesdk",
+    },
+
+    {
+      id: 6,
+      title: "Richa Pandey",
+      link: "https://drive.google.com/file/d/12KQCJudELbyio2PYqbILBxYQdpif8nU5/view?usp=drivesdk",
+    },
+
+    {
+      id: 7,
+      title: "Mayurika Joshi",
+      link: "https://drive.google.com/file/d/12KQCJudELbyio2PYqbILBxYQdpif8nU5/view?usp=drivesdk",
+    },
+
+    {
+      id: 8,
+      title: "Sujata Negi Thakur",
+      link: "https://drive.google.com/file/d/12KQCJudELbyio2PYqbILBxYQdpif8nU5/view?usp=drivesdk",
+    },
+
+    {
+      id: 9,
+      title: "Mukta Jukaria",
+      link: "https://drive.google.com/file/d/12KQCJudELbyio2PYqbILBxYQdpif8nU5/view?usp=drivesdk",
+    },
+
+    {
+      id: 10,
+      title: "Dr. Vipin chandra Kuraie",
+      link: "https://drive.google.com/file/d/12KQCJudELbyio2PYqbILBxYQdpif8nU5/view?usp=drivesdk",
+    },
+
+    {
+      id: 11,
+      title: "Anuj Kumar",
+      link: "https://drive.google.com/file/d/12KQCJudELbyio2PYqbILBxYQdpif8nU5/view?usp=drivesdk",
+    },
+
+    {
+      id: 12,
+      title: "Dr. Gulbir Singh",
+      link: "https://drive.google.com/file/d/12KQCJudELbyio2PYqbILBxYQdpif8nU5/view?usp=drivesdk",
+    },
+
+    {
+      id: 13,
+      title: "Dr. M. C. Lohani",
       link: "https://drive.google.com/file/d/12KQCJudELbyio2PYqbILBxYQdpif8nU5/view?usp=drivesdk",
     },
 
     ],
-    Second_Year: [
+    Management: [
       {
         id: 1,
-        title: 'Btech',
+        title: 'Dr Anil Kumar',
 
       },
       {
         id: 2,
-        title: "Bca",
+        title: "Dr. Udit Kumar Pandey",
 
       },
     ],
-    Third_Year: [
+    Economics: [
       {
         id: 1,
-        title: 'Btech',
+        title: 'Dr Pawan Deep Singh',
         link: "https://drive.google.com/file/d/14K3h9kN3cJczIbE2yucgNgDV-_zO2rc4/view?usp=drivesdk",
       },
       {
         id: 2,
-        title: "Bca",
+        title: "Dr Rahul Sharma",
         link: "https://drive.google.com/file/d/1tYBgET6hjZ-A06iHJ3m6nZDjmg0WTyTi/view?usp=drivesdk",
       },
-      {
-        id: 3,
-        title: "BBA",
-        link: "https://drive.google.com/file/d/1w14PEg_t2KSXJBRjJbZdZUbOpniKoWa_/view?usp=drivesdk",
-      },
-      {
-        id: 4,
-        title: "B.Com",
-        link: "https://drive.google.com/file/d/1ryV6Ph29iJZZJBuufJtweeaUiII6IdKZ/view?usp=drivesdk",
-      },
-  
-      {
-        id: 5,
-        title: "BJMC",
-        link: "https://drive.google.com/file/d/12KQCJudELbyio2PYqbILBxYQdpif8nU5/view?usp=drivesdk",
-      },
+     
     ],
-    Fourth_Year: [
+    Mass_Communication: [
       {
         id: 1,
-        title: 'Btech',
+        title: 'Utkarsh Misra',
 
       },
       {
         id: 2,
-        title: "Bca",
+        title: "Ritika Sanwal ",
 
       },
     ],
@@ -100,7 +133,7 @@ export default function Paper() {
               key={category}
               className={({ selected }) =>
                 classNames(
-                    'w-full rounded-lg py-2.5 text-sm font-medium leading-5 text-blue-700',
+                    'w-full rounded-lg py-2.5 text-xs font-medium leading-5 text-blue-700',
                   'ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2',
                   selected
                     ? 'bg-white shadow'
