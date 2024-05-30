@@ -20,7 +20,7 @@ const Footer = () => {
       <div className="sm:flex justify-between py-10 px-8 grid bg-gray-900">
         <div className="text-white">
           <h1 className="w-full text-3xl font-bold cursor-pointer text-blue-400">
-            LevelUp
+            Paper Bank
           </h1>
           <p className="py-4">
             Welcome to Paper Bank , where you get all question papers at one place and research paper to get reference for your projects .
@@ -77,7 +77,7 @@ const Footer = () => {
                       transition={{ duration: 0.4, delay: 0.5 }}
                     >
                       {" "}
-                      <Link to="contact">
+                      <Link to="/contact">
 
                       <button
                         class="my-1 inline-block rounded bg-[#41a5d7] py-4 px-6 text-base font-medium text-white transition hover:bg-opacity-90 md:px-9 lg:px-6 xl:px-9"

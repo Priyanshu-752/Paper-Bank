@@ -26,14 +26,14 @@ const Herosection = () => {
                   animate="visible"
                   transition={{ duration: 0.5, delay: 0.25 }}
                 >
-                  <h1 class="text-transparent bg-clip-text bg-gradient-to-r sm:text-8xl text-2xl from-blue-400 to-emerald-600 mb-3  font-bold leading-snug sm:text-[42px] lg:text-[40px] xl:text-[42px]">
+                  <h1 class="text-transparent mt-5 bg-clip-text bg-gradient-to-r sm:text-8xl text-2xl from-blue-400 to-emerald-600 mb-3  font-bold leading-snug sm:text-[42px] lg:text-[40px] xl:text-[42px]">
                     Welcome to
                     <br />
                     <span className="sm:text-8  xl text-6xl">
                       Paper Bank
                     </span>
                   </h1>
-                  <p class="text-body-color mt-7 text-sm mb-8 max-w-[480px] sm:text-base">
+                  <p class="text-body-color mt-10 text-sm max-w-[480px] sm:text-base">
             Welcome to Paper Bank , where you get all question papers at one place and research paper to get reference for your projects. By Software Cell Team of Graphic Era Hill University, Haldwani.
                   </p>
                 </motion.div>

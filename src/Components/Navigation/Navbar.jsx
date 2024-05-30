@@ -31,7 +31,7 @@ const Navbar = () => {
                 <Link to="/about">About</Link>
               </li>
               <li className="p-2 mr-4 text-white hover:text-blue-400 cursor-pointer">
-                <Link to="/services">Services</Link>
+                <Link to="/services">Features</Link>
               </li>
               <li className="p-2 text-white hover:text-blue-400 cursor-pointer">
                 <Link to="/contact">Contact</Link>
@@ -68,7 +68,7 @@ const Navbar = () => {
               <Link to="/about">About</Link>
             </li>
             <li className="text-white hover:text-blue-400 font-semibold pl-8 cursor-pointer pb-4">
-              <Link to="/services">Services</Link>
+              <Link to="/services">Features</Link>
             </li>
             <li className="text-white hover:text-blue-400 font-semibold pl-8 cursor-pointer pb-4">
               <Link to="/contact">Contact</Link>

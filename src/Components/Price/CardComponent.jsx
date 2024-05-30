@@ -28,13 +28,23 @@ const CardComponent = () => {
           </h2>
         </div>
         <p className="flex text-xl justify-center sm:mb-24 mb-16 text-center mt-6 sm:mt-0 ">
-          Find your Package that fits your needs, weather you r looking for Question or Research Papers wee got you covered!
+          Find your Package that fits your needs, weather you r looking for Question or Research Papers we got you covered!
         </p>
         {/* cards */}
         <>
           {Width < 631 ? (
             <>
               <div className="max-w-[1240px] mx-auto grid sm:grid-cols-3 gap-8">
+                <div>
+                <Link to="ResearchPaper">
+                  <Card
+                    image={image3}
+                    Package={"Research Papers"}
+                    buttonBg={"bg-gray-300"}
+                    hoverBgButton={"hover:bg-gray-200"}
+                  />
+                  </Link>
+                </div>
                 <div>
                 <Link to="https://gehuhaldwani.github.io/pyqs/">
                   <Card
@@ -54,16 +64,6 @@ const CardComponent = () => {
                   <Card
                     image={image1}
                     Package={"Syllabus"}
-                    buttonBg={"bg-gray-300"}
-                    hoverBgButton={"hover:bg-gray-200"}
-                  />
-                  </Link>
-                </div>
-                <div>
-                <Link to="ResearchPaper">
-                  <Card
-                    image={image3}
-                    Package={"Research Papers"}
                     buttonBg={"bg-gray-300"}
                     hoverBgButton={"hover:bg-gray-200"}
                   />

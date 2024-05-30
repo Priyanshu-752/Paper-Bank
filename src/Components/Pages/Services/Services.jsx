@@ -16,7 +16,7 @@ const Services = () => {
         {/* services component start */}
         <div className="sm:mt-36 mt-24">
           <h1 className="flex justify-center text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-emerald-500 font-extrabold sm:text-7xl text-5xl text-center">
-            Our services that help you Grow!
+            Our features that may help you!
           </h1>
         </div>
         <div className="pb-16">

@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../../Navigation/Navbar'
 import Footer from '../../Footer/Footer'
 import Paper from './Paper'
+import Papers from './Papers'
 import Research from '../../CallToAction/CallToAction'
 const ResearchPaper = () => {
   return (
@@ -12,7 +13,8 @@ const ResearchPaper = () => {
         <h1 className="flex justify-center text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-emerald-500 font-extrabold sm:text-7xl text-5xl text-center">
           Latest Research Papers !
         </h1>
-        <Paper/>
+        {/* <Paper/> */}
+        <Papers />
       </div>
     </div>
     <Footer/>
